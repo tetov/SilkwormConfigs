@@ -1,2 +1,2 @@
 # SilkwormConfigs
-Printer configuration files for the Grasshopper plugin Silkworm
+Printer configuration files for the Grasshopper plugin Silkworm.
