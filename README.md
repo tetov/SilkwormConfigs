@@ -1,6 +1,16 @@
 # SilkwormConfigs
 Printer configuration files for the Grasshopper plugin Silkworm.
 
+## HOWTO: Write ini's for Silkworm
+
+If you have an older version of Slic3r, export a setup from there and you are good to go.
+
+If you don't have an older version of Slic3r, start out with the reference ini below and remove all comments. Most settings doesn't matter, even the ones that are not marked as defined by Silkworm. The important ones are the `start_gcode` and `end_gcode`.
+
+Silkworm can't parse comments, so remove them all (`# comment` or `; comment`).
+
+`start_gcode` and `end_gcode` are strings where newlines are written using `\n`. You can add comments here, using the `; comment` syntax.
+
 ## Reference ini
 ```ini
 absolute_extrudersteps = 1                              # not defined in silkworm
